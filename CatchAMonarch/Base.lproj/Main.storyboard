@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="CatchAMonarch" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j60-Bp-8Pc">
+                                <rect key="frame" x="16" y="59" width="361" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Score: 2" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ps0-Vc-AdI">
+                                <rect key="frame" x="165" y="96" width="63" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Highest Score: 5" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rUU-96-lTb">
+                                <rect key="frame" x="133" y="797" width="127" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Butterfly" translatesAutoresizingMaskIntoConstraints="NO" id="EZu-me-S4T">
+                                <rect key="frame" x="137.66666666666666" y="359" width="118" height="134"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Butterfly" translatesAutoresizingMaskIntoConstraints="NO" id="e6s-Az-kyG">
+                                <rect key="frame" x="263.66666666666669" y="359" width="117.33333333333331" height="134"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Butterfly" translatesAutoresizingMaskIntoConstraints="NO" id="Pcc-xb-Rn9">
+                                <rect key="frame" x="16.000000000000007" y="359" width="118.66666666666669" height="134"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="134" id="Lce-5g-8qN"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Butterfly" translatesAutoresizingMaskIntoConstraints="NO" id="yM5-VT-cM2">
+                                <rect key="frame" x="137.66666666666666" y="237" width="118" height="134"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="118" id="3Xc-pj-kNA"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Butterfly" translatesAutoresizingMaskIntoConstraints="NO" id="KzR-qs-G2y">
+                                <rect key="frame" x="263.66666666666669" y="237" width="117.33333333333331" height="134"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Butterfly" translatesAutoresizingMaskIntoConstraints="NO" id="Qmd-Xv-qmG">
+                                <rect key="frame" x="16.000000000000007" y="237" width="118.66666666666669" height="134"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="134" id="b2m-88-fny"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Butterfly" translatesAutoresizingMaskIntoConstraints="NO" id="3nN-8Z-dle">
+                                <rect key="frame" x="137.66666666666666" y="501" width="118" height="134"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Butterfly" translatesAutoresizingMaskIntoConstraints="NO" id="hbJ-Hq-WNC">
+                                <rect key="frame" x="263.66666666666669" y="501" width="117.33333333333331" height="134"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Butterfly" translatesAutoresizingMaskIntoConstraints="NO" id="db5-aN-SIG">
+                                <rect key="frame" x="16.000000000000007" y="501" width="118.66666666666669" height="134"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="yM5-VT-cM2" firstAttribute="bottom" secondItem="KzR-qs-G2y" secondAttribute="bottom" id="14H-7U-ata"/>
+                            <constraint firstItem="Pcc-xb-Rn9" firstAttribute="trailing" secondItem="db5-aN-SIG" secondAttribute="trailing" id="1fw-sm-Ppx"/>
+                            <constraint firstItem="ps0-Vc-AdI" firstAttribute="centerX" secondItem="yM5-VT-cM2" secondAttribute="centerX" id="3bQ-JK-PD9"/>
+                            <constraint firstItem="KzR-qs-G2y" firstAttribute="leading" secondItem="e6s-Az-kyG" secondAttribute="leading" id="4Oa-ZY-zWV"/>
+                            <constraint firstItem="j60-Bp-8Pc" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="4Sc-my-zxV"/>
+                            <constraint firstItem="j60-Bp-8Pc" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="BIY-PU-vRB"/>
+                            <constraint firstItem="db5-aN-SIG" firstAttribute="top" secondItem="3nN-8Z-dle" secondAttribute="top" id="BOz-25-Lbc"/>
+                            <constraint firstItem="yM5-VT-cM2" firstAttribute="leading" secondItem="EZu-me-S4T" secondAttribute="leading" id="BPc-yg-QSI"/>
+                            <constraint firstItem="rUU-96-lTb" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="DSV-gT-KV3"/>
+                            <constraint firstItem="3nN-8Z-dle" firstAttribute="centerX" secondItem="rUU-96-lTb" secondAttribute="centerX" id="E8J-p6-yhw"/>
+                            <constraint firstItem="yM5-VT-cM2" firstAttribute="top" secondItem="KzR-qs-G2y" secondAttribute="top" id="FZ3-fh-N6S"/>
+                            <constraint firstItem="j60-Bp-8Pc" firstAttribute="centerX" secondItem="ps0-Vc-AdI" secondAttribute="centerX" id="Fwq-vN-OJe"/>
+                            <constraint firstItem="Qmd-Xv-qmG" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="237" id="GmA-F7-cAG"/>
+                            <constraint firstItem="j60-Bp-8Pc" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="IAs-bx-qeA"/>
+                            <constraint firstItem="Qmd-Xv-qmG" firstAttribute="leading" secondItem="Pcc-xb-Rn9" secondAttribute="leading" id="MPK-yN-h46"/>
+                            <constraint firstItem="e6s-Az-kyG" firstAttribute="trailing" secondItem="hbJ-Hq-WNC" secondAttribute="trailing" id="Mcj-Cn-shc"/>
+                            <constraint firstItem="Qmd-Xv-qmG" firstAttribute="trailing" secondItem="Pcc-xb-Rn9" secondAttribute="trailing" id="OI0-b0-MWd"/>
+                            <constraint firstItem="KzR-qs-G2y" firstAttribute="trailing" secondItem="e6s-Az-kyG" secondAttribute="trailing" id="QEH-tW-i7N"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="KzR-qs-G2y" secondAttribute="trailing" constant="12" id="UMH-1A-PYq"/>
+                            <constraint firstItem="Pcc-xb-Rn9" firstAttribute="top" secondItem="EZu-me-S4T" secondAttribute="top" id="Uxi-QA-gy5"/>
+                            <constraint firstItem="yM5-VT-cM2" firstAttribute="trailing" secondItem="EZu-me-S4T" secondAttribute="trailing" id="Zf4-6Y-Yf5"/>
+                            <constraint firstItem="Qmd-Xv-qmG" firstAttribute="bottom" secondItem="yM5-VT-cM2" secondAttribute="bottom" id="aiO-Vg-t6s"/>
+                            <constraint firstItem="EZu-me-S4T" firstAttribute="trailing" secondItem="3nN-8Z-dle" secondAttribute="trailing" id="bt0-EM-CFL"/>
+                            <constraint firstItem="e6s-Az-kyG" firstAttribute="leading" secondItem="hbJ-Hq-WNC" secondAttribute="leading" id="cIQ-25-sNW"/>
+                            <constraint firstItem="EZu-me-S4T" firstAttribute="top" secondItem="e6s-Az-kyG" secondAttribute="top" id="cPu-jB-p01"/>
+                            <constraint firstItem="3nN-8Z-dle" firstAttribute="bottom" secondItem="hbJ-Hq-WNC" secondAttribute="bottom" id="eIl-A6-sL8"/>
+                            <constraint firstItem="Pcc-xb-Rn9" firstAttribute="bottom" secondItem="EZu-me-S4T" secondAttribute="bottom" id="eUf-49-c30"/>
+                            <constraint firstItem="EZu-me-S4T" firstAttribute="bottom" secondItem="e6s-Az-kyG" secondAttribute="bottom" id="eVe-6U-Yb1"/>
+                            <constraint firstItem="j60-Bp-8Pc" firstAttribute="leading" secondItem="Qmd-Xv-qmG" secondAttribute="leading" id="gGG-TY-1cT"/>
+                            <constraint firstItem="yM5-VT-cM2" firstAttribute="leading" secondItem="Pcc-xb-Rn9" secondAttribute="trailing" constant="3" id="gUA-rc-fGp"/>
+                            <constraint firstItem="ps0-Vc-AdI" firstAttribute="top" secondItem="j60-Bp-8Pc" secondAttribute="bottom" constant="16" id="hdv-dM-59n"/>
+                            <constraint firstItem="db5-aN-SIG" firstAttribute="bottom" secondItem="3nN-8Z-dle" secondAttribute="bottom" id="jf5-gZ-1bC"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="db5-aN-SIG" secondAttribute="bottom" constant="183" id="lcs-sj-0AH"/>
+                            <constraint firstItem="3nN-8Z-dle" firstAttribute="top" secondItem="hbJ-Hq-WNC" secondAttribute="top" id="mId-4L-Xcb"/>
+                            <constraint firstItem="EZu-me-S4T" firstAttribute="leading" secondItem="3nN-8Z-dle" secondAttribute="leading" id="pHf-9p-4Po"/>
+                            <constraint firstItem="KzR-qs-G2y" firstAttribute="leading" secondItem="EZu-me-S4T" secondAttribute="trailing" constant="8" id="s01-3J-Txp"/>
+                            <constraint firstItem="Pcc-xb-Rn9" firstAttribute="leading" secondItem="db5-aN-SIG" secondAttribute="leading" id="tfs-XX-m1C"/>
+                            <constraint firstItem="Pcc-xb-Rn9" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="u5T-lH-1Mx"/>
+                            <constraint firstItem="db5-aN-SIG" firstAttribute="top" secondItem="Pcc-xb-Rn9" secondAttribute="bottom" constant="8" id="wKk-Hy-hNq"/>
+                            <constraint firstItem="Qmd-Xv-qmG" firstAttribute="top" secondItem="yM5-VT-cM2" secondAttribute="top" id="zv0-Dy-4Ht"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="butterfly1" destination="Qmd-Xv-qmG" id="4eD-IH-gcF"/>
+                        <outlet property="butterfly2" destination="yM5-VT-cM2" id="aab-UG-aS8"/>
+                        <outlet property="butterfly3" destination="KzR-qs-G2y" id="y2X-U6-KEu"/>
+                        <outlet property="butterfly4" destination="Pcc-xb-Rn9" id="Brh-sq-tZc"/>
+                        <outlet property="butterfly5" destination="EZu-me-S4T" id="jWE-KY-qrB"/>
+                        <outlet property="butterfly6" destination="e6s-Az-kyG" id="OUQ-q4-4f6"/>
+                        <outlet property="butterfly7" destination="db5-aN-SIG" id="ran-gw-4jh"/>
+                        <outlet property="butterfly8" destination="3nN-8Z-dle" id="m4Z-xS-kTh"/>
+                        <outlet property="butterfly9" destination="hbJ-Hq-WNC" id="LlP-F4-ZjN"/>
+                        <outlet property="highestScoreLabel" destination="rUU-96-lTb" id="V6w-L5-3ah"/>
+                        <outlet property="scoreLabel" destination="ps0-Vc-AdI" id="hD2-xk-WrN"/>
+                        <outlet property="timerLabel" destination="j60-Bp-8Pc" id="Nqn-Xa-G8a"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="130.53435114503816" y="-27.464788732394368"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Butterfly" width="150" height="150"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
