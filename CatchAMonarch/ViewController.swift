@@ -93,7 +93,6 @@ class ViewController: UIViewController {
     
     
     //MARK: Functions
-    
     @objc func hideButterfly() {
         for butterfly in butterflyArray {
             butterfly.isHidden = true
